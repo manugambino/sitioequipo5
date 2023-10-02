@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(105, 119, 100, 1);
+    color: #fff;
+}
+
+#menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    margin-top: 3rem;
+}
+
+#menu a {
+    position: relative;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#frame {
+    background-color: white;
+    border-radius: 40px;
+    padding: 6rem;
+    text-align: center;
+}
+
+#frame p {
+    color: black;
+}
+
+.container_int {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem !important; /* Ajusta el margen según tus preferencias */
+}
+
+.integrante {
+    width: 25%; /* Establece el ancho del contenedor, con margen */
+    height: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Coloca el nombre debajo de la imagen */
+    align-items: center; /* Centra horizontalmente */
+}
+
+.integrante img {
+    width: 150px; /* Ajusta el tamaño deseado para todas las imágenes */
+    height: 150px; /* Ajusta el tamaño deseado para todas las imágenes */
+    border-radius: 80px; /* Radio de esquina para hacerlo redondo */
+    object-fit: cover; /* Escalar y recortar la imagen para que se ajuste al radio */
+}
+
+.integrante p a {
+    color: black !important;
+    margin-top: 10px;
+    flex-grow: 1; /* Permite que el nombre se expanda verticalmente para centrarse */
+}
